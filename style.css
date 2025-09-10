@@ -1,4 +1,8 @@
 /* General Styles */
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -90,6 +94,10 @@ body {
   align-items: center;
   gap: 50px;
   padding: 40px;
+}
+
+.logos img {
+  max-height: 40px;
 }
 
 /* What is GPT-3 */
@@ -223,6 +231,8 @@ footer .footer-links {
   justify-content: space-between;
   margin-top: 40px;
   text-align: left;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 
 footer .footer-links div {
