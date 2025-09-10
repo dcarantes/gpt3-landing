@@ -15,10 +15,10 @@
       <div class="logo">GPT-3</div>
       <ul class="nav-links">
         <li><a href="#">Home</a></li>
-        <li><a href="#">What is GPT?</a></li>
-        <li><a href="#">Open AI</a></li>
-        <li><a href="#">Case Studies</a></li>
-        <li><a href="#">Library</a></li>
+        <li><a href="#what-is">What is GPT?</a></li>
+        <li><a href="#future">Open AI</a></li>
+        <li><a href="#blog">Case Studies</a></li>
+        <li><a href="#footer">Library</a></li>
       </ul>
       <div class="auth">
         <a href="#">Sign in</a>
@@ -44,7 +44,7 @@
       </div>
     </div>
     <div class="hero-image">
-      <img src="images/Header Illustration.png" alt="AI Illustration">
+      <img src="images/header-illustration.png" alt="AI Illustration">
     </div>
   </section>
 
@@ -58,7 +58,7 @@
   </section>
 
   <!-- What is GPT-3 Section -->
-  <section class="what-is">
+  <section id="what-is" class="what-is">
     <div class="blue-box">
       <h3>What is GPT-3</h3>
       <p>
@@ -83,13 +83,15 @@
   </section>
 
   <!-- Future Section -->
-  <section class="future">
+  <section id="future" class="future">
     <div class="future-text">
       <h2 class="gradient-text">
         The Future is Now and You Just Need To Realize It.<br>
         Step into Future Today & Make it Happen.
       </h2>
-      <p class="link">Request Early Access to Get Started</p>
+      <button class="btn-secondary" onclick="document.querySelector('#cta').scrollIntoView({ behavior: 'smooth' });">
+        Request Early Access To Get Started
+      </button>
       <ul>
         <li><span>Improving end distrusts instantly</span><br>
           From they fine john he give of rich he. They age and draw mrs like. Improving end distrusts instantly.
@@ -106,12 +108,12 @@
       </ul>
     </div>
     <div class="future-img">
-      <img src="images/Feature Image.png" alt="VR Feature">
+      <img src="images/feature-image.png" alt="VR Feature">
     </div>
   </section>
 
   <!-- CTA Banner -->
-  <section class="cta-banner">
+  <section id="cta" class="cta-banner">
     <div class="cta-content">
       <p>Register today & start exploring the endless possibilities.</p>
       <button class="btn-secondary">Get Started</button>
@@ -119,11 +121,14 @@
   </section>
 
   <!-- Blog Section -->
-  <section class="blog">
+  <section id="blog" class="blog">
     <h2><span class="gradient-text">A lot is happening,</span><br>We are blogging about it.</h2>
+    <button class="btn-secondary" onclick="document.querySelector('#blog').scrollIntoView({ behavior: 'smooth' });">
+      Explore Blogs
+    </button>
     <div class="blog-grid">
       <div class="blog-card">
-        <img src="images/Rectangle 22.png" alt="Blog">
+        <img src="images/blog1.png" alt="Blog">
         <div class="blog-info">
           <p>Sep 26, 2021</p>
           <h4>GPT-3 and Open AI is the future. Let us explore how it is?</h4>
@@ -131,7 +136,7 @@
         </div>
       </div>
       <div class="blog-card">
-        <img src="images/Rectangle 22-1.png" alt="Blog">
+        <img src="images/blog2.png" alt="Blog">
         <div class="blog-info">
           <p>Sep 26, 2021</p>
           <h4>GPT-3 and Open AI is the future. Let us explore how it is?</h4>
@@ -139,23 +144,7 @@
         </div>
       </div>
       <div class="blog-card">
-        <img src="images/Rectangle 22-2.png" alt="Blog">
-        <div class="blog-info">
-          <p>Sep 26, 2021</p>
-          <h4>GPT-3 and Open AI is the future. Let us explore how it is?</h4>
-          <a href="#">Read Full Article</a>
-        </div>
-      </div>
-      <div class="blog-card">
-        <img src="images/Rectangle 22-3.png" alt="Blog">
-        <div class="blog-info">
-          <p>Sep 26, 2021</p>
-          <h4>GPT-3 and Open AI is the future. Let us explore how it is?</h4>
-          <a href="#">Read Full Article</a>
-        </div>
-      </div>
-      <div class="blog-card">
-        <img src="images/Rectangle 22-4.png" alt="Blog">
+        <img src="images/blog3.png" alt="Blog">
         <div class="blog-info">
           <p>Sep 26, 2021</p>
           <h4>GPT-3 and Open AI is the future. Let us explore how it is?</h4>
@@ -164,29 +153,13 @@
       </div>
     </div>
   </section>
-
-  <!-- Other / Activity No.1 Section (added) -->
-  <section id="other" class="other-section">
-    <div class="other-content">
-      <h2>Request Early Access To Get Started</h2>
-      <p class="subtitle">A lot is happening — we are blogging about it.</p>
-      <p class="call">Do you want to step into the future before others?</p>
-      <div class="action-row">
-        <input type="email" placeholder="Enter your email to request access">
-        <button class="btn-primary">Request Early Access</button>
-      </div>
-      <p class="note">Included: the extra "Other" section from Activity No.1 as requested.</p>
-    </div>
-    <div class="other-image">
-      <img src="images/Other-Illustration.png" alt="Other Illustration" />
-    </div>
-  </section>
-
 
   <!-- Footer -->
-  <footer>
+  <footer id="footer">
     <h2 class="gradient-text">Do you want to step in to the future before others</h2>
-    <button class="btn-secondary">Request Early Access</button>
+    <button class="btn-secondary" onclick="document.querySelector('#cta').scrollIntoView({ behavior: 'smooth' });">
+      Request Early Access
+    </button>
     <div class="footer-links">
       <div>
         <h3>GPT-3</h3>
@@ -216,4 +189,3 @@
   </footer>
 </body>
 </html>
-
